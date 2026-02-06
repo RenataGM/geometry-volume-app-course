@@ -16,7 +16,7 @@ En primer lugar, se cuenta con la raíz del proyecto donde se encuentran los arc
 
 -Carpeta tests: Aquí se encuentran las pruebas unitarias prar verificar el funcionamento adecuado, existe una prueba unitaria para cada figura.
 
-Aquí hay una representación visual de la estructura:
+geometry-volume-app/
 │   .gitignore
 │   main.py
 │   README.md
