@@ -1,2 +1,1 @@
-# geometry-volume-app-course
-Simulate a simple geometry volume calculator
+# geometry-volume-app
