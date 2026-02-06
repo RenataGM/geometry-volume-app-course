@@ -16,31 +16,35 @@ En primer lugar, se cuenta con la raíz del proyecto donde se encuentran los arc
 
 -Carpeta tests: Aquí se encuentran las pruebas unitarias prar verificar el funcionamento adecuado, existe una prueba unitaria para cada figura.
 
+Aquí hay una representación visual de la estructura:
+
+```
 geometry-volume-app/
 │   .gitignore
 │   main.py
 │   README.md
 │
-├───geometry
+├── geometry
 │   │   box.py
 │   │   cone.py
 │   │   cylinder.py
 │   │   sphere.py
 │   │   __init__.py
 │   │
-│   └───__pycache__
-│           box.cpython-312.pyc
-│           cone.cpython-312.pyc
-│           cylinder.cpython-312.pyc
-│           sphere.cpython-312.pyc
-│           __init__.cpython-312.pyc
+│   └── __pycache__
+│       box.cpython-312.pyc
+│       cone.cpython-312.pyc
+│       cylinder.cpython-312.pyc
+│       sphere.cpython-312.pyc
+│       __init__.cpython-312.pyc
 │
-└───tests
-        test_box.py
-        test_cone.py
-        test_cylinder.py
-        test_sphere.py
-        __init__.py
+└── tests
+    │   test_box.py
+    │   test_cone.py
+    │   test_cylinder.py
+    │   test_sphere.py
+    │   __init__.py
+```
 
 ## Como correr el main.py
 
