@@ -6,11 +6,15 @@ Este proyecto se realizo mediante Python y en este se busca calcular el volumen 
 
 ## Estructura del Proyecto
 En primer lugar, se cuenta con la raíz del proyecto donde se encuentran los archivos y carpetas principales los cuales permiten la ejecución correcta. Los archivos aquí son:
-- main.py: El archivo principal para la ecución del proyecto desde donde se importan las funciones definidas dentro del paquete de geometry para calcular los volúmenes de las siguras.
+- main.py: El archivo principal para la ecución del proyecto desde donde se importan las funciones definidas dentro del paquete de geometry para calcular los volúmenes de las figuras.
+
 - README.md: Este archivo es el que se está leyendo actualmente y contiene la descripción general del proyecto junto a las intrucciones de ejecución.
+
 - .gitignore: Define los archivos y las carpetas que no deben de ser rastreados por Git.
-- Carepta geometry: En esta se contiene toda la lógica del cálculo de los volumenes. Cda archivo dentro de la carpeta se utiliza para una fugura diferente, aquí es donde se encuentra el box.py, con.py, cylinder.py y sphere.py. También se cuenta con el _init_.py indicando que la carpeta debe de tratarse como un paquete y el _pycache_/ que almacena archivos compilados.
--Carpeta tests: Aquí se encuentran las purebas unitarias prar verificar el funcionamento adecuado, existe una prueba unitaria para cada figura.
+
+- Carpeta geometry: En esta se contiene toda la lógica del cálculo de los volumenes. Cada archivo dentro de la carpeta se utiliza para una figura diferente, aquí es donde se encuentra el box.py, con.py, cylinder.py y sphere.py. También se cuenta con el _init_.py indicando que la carpeta debe de tratarse como un paquete y el _pycache_/ que almacena archivos compilados.
+
+-Carpeta tests: Aquí se encuentran las pruebas unitarias prar verificar el funcionamento adecuado, existe una prueba unitaria para cada figura.
 
 Aquí hay una representación visual de la estructura:
 │   .gitignore
